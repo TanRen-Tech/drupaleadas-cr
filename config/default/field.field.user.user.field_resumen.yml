@@ -1,0 +1,20 @@
+uuid: 01fc410f-e12c-422b-99cf-db81877a9e33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_resumen
+  module:
+    - user
+id: user.user.field_resumen
+field_name: field_resumen
+entity_type: user
+bundle: user
+label: Resumen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

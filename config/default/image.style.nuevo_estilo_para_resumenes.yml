@@ -1,0 +1,15 @@
+uuid: 01473fa0-0d50-4eab-a7c0-372dc7fa2f1f
+langcode: en
+status: true
+dependencies: {  }
+name: nuevo_estilo_para_resumenes
+label: 'Nuevo estilo para resumenes'
+effects:
+  cde47cae-eb35-40bf-9002-573a3b91df54:
+    uuid: cde47cae-eb35-40bf-9002-573a3b91df54
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center
